@@ -17,6 +17,7 @@
 - RTL & LTR webSite
 - 2 Language Support
 - 2 Language Search
+- Local Storage State management
 - Favorite Page
 - Add , Delete , Delete All Favorite products
 - Filter Based on category
