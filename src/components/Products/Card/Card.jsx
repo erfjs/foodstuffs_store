@@ -17,7 +17,13 @@ export default function Card(props) {
   return (
     <div key={props.id} className="box">
       <Link to={`/${props.id}`}>
-        <img className="product_img" src={props.image} alt="product" />
+        <img
+          className="product_img"
+          src={props.image}
+          alt={props.title}
+          width={230}
+          height="auto"
+        />
       </Link>
       <div className="content">
         <div className="title">
