@@ -32,7 +32,7 @@ function Header() {
           )}
         </div>
         <div className="icon_Sopping_box">
-          <Link to={"/basket"} className="shoppe_icon_box" >
+          <Link to={"/basket"} className="shoppe_icon_box" aria-label="basket">
             <AiOutlineShopping className="shop_icon" />
             {state.basket.length > 0 && (
               <span className="badge_shope">{state.basket.length}</span>
@@ -40,6 +40,7 @@ function Header() {
           </Link>
           <Link
             to={"/favorite"}
+            aria-label="favorite"
             className={`mark_icon_box ${
               state.favorites.length > 0 ? "tada" : ""
             }`}
