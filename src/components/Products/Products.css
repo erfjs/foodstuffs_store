@@ -44,12 +44,14 @@
 
 .title {
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .price {
   width: 100%;
-  text-align: left;
-  margin-top: 5px;
+  text-align: center;
+
 }
 
 .price span {
