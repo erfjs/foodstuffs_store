@@ -25,7 +25,7 @@ export default function Footer() {
           </Link>
         </div>
         <div className="footer_link_box">
-          <a href="/">
+          <a href="https://github.com/erfjs/foodstuffs_store" target="_blank">
             {lng.lng === "PR"
               ? "سورس کد پروژه در گیت هاب"
               : "Project source code on GitHub"}
