@@ -1,5 +1,7 @@
  [[redirects]]
- from = "/*"
- to = "/app"
- status = 404
- force = true
+ from = "/old-path"
+  to = "/new-path"
+  status = 301
+  force = false
+  query = {path = ":path"}
+  conditions = {Language = ["en"], Country = ["US"], Role = ["admin"]}
