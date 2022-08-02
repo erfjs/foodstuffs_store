@@ -1,0 +1,5 @@
+ [[redirects]]
+ from = "/*"
+ to = "/app"
+ status = 404
+ force = true
