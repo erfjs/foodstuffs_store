@@ -31,7 +31,7 @@
 - calculation Price After confirmation offer code
 
 
-##### [Live Demo](https://foodstuffs_store.erfjs.com) on Netlify
+##### [Live Demo](https://foodstuffs-store.erfjs.com) on Netlify
 
 <p align="center">
   <a src="https://foodstuffs_store.erfjs.com" target="_blank"><img src="./readme/example1.png" width="800" height="auto" /></a>
